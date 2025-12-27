@@ -19,3 +19,13 @@
     border-bottom: solid #DCE4F2;
     font-size: 38px;
 }
+
+.lightZone section section h1{
+    border: none;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation_Regular.ttf') format('truetype');
+}
