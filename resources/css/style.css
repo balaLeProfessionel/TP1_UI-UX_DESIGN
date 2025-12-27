@@ -9,3 +9,8 @@
     background-color: #0A2C59; 
     color: #DCE4F2;
 }
+
+.lightZone h1{
+    border-bottom: solid #0A2C59;
+    font-size: 38px;
+}
