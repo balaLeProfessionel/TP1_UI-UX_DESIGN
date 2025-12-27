@@ -29,3 +29,12 @@
     font-family: 'Sansation';
     src: url('../fonts/Sansation_Regular.ttf') format('truetype');
 }
+
+header span{
+    font-size: 38px;
+    font-family: 'Sansation';
+}
+
+.container{
+    border: solid 2px #0A2C59;
+}
