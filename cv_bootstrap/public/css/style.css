@@ -1,0 +1,40 @@
+
+
+.lightZone{
+    background-color: #DCE4F2; 
+    color: #0A2C59;
+}
+
+.darkZone{
+    background-color: #0A2C59; 
+    color: #DCE4F2;
+}
+
+.lightZone h1{
+    border-bottom: solid #0A2C59;
+    font-size: 38px;
+}
+
+.darkZone h1{
+    border-bottom: solid #DCE4F2;
+    font-size: 38px;
+}
+
+.lightZone section section h1{
+    border: none;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('../fonts/Sansation_Regular.ttf') format('truetype');
+}
+
+header span{
+    font-size: 38px;
+    font-family: 'Sansation';
+}
+
+.container{
+    border: solid 2px #0A2C59;
+}
