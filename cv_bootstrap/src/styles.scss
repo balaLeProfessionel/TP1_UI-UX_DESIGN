@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --dark:var(--primary);
+    --light:var(--secondary);
+}
+
+.lightZone{
+    background-color: var(--light) !important; 
+    color: var(--dark);
+}
+
+.darkZone{
+    background-color: var(--dark); 
+    color: var(--light);
+}
+
+.lightZone h1{
+    border-bottom: solid var(--dark);
+    font-size: 38px;
+}
+
+.darkZone h1{
+    border-bottom: solid var(--light);
+    font-size: 38px;
+}
+
+.lightZone section section h1{
+    border: none;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('/fonts/Sansation_Regular.ttf') format('truetype');
+}
+
+header span{
+    font-size: 38px;
+    font-family: 'Sansation';
+}
+
+.container{
+    border: solid 2px var(--dark);
+}
